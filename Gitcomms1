@@ -1,0 +1,62 @@
+#1
+$ git init
+Reinitialized existing Git repository in C:/Users/Juicy/Desktop/BlackTech/Git-codebase/group-1_linux-assignment/.git/
+
+#2
+$ git status
+On branch zonaassignmnet
+nothing to commit, working tree clean
+
+#3 
+$ git version
+git version 2.36.0.windows.1
+
+#4
+$ git log
+commit dfce536f329f6a6bf1ee01970f26bca66b676c5c (HEAD, ZonaAssignmnet)
+Author: gianluigizona <unaigwe.joel@gmail.com>
+Date:   Sun May 15 23:01:08 2022 -0600
+
+    LinuxAss.docx
+
+commit 217bd790f6b3e623b96a7b333e52a1281d8e3442 (origin/main, origin/HEAD, main)
+Author: Bunmi-Ola <51763820+Bunmi-Ola@users.noreply.github.com>
+Date:   Tue May 10 17:32:43 2022 -0600
+
+    Update README.md
+
+commit 254c14d9508262c8d4a722ae8130f9296774cd96
+Author: Bunmi-Ola <51763820+Bunmi-Ola@users.noreply.github.com>
+Date:   Tue May 10 17:28:51 2022 -0600
+
+    Initial commit
+
+
+#5 
+$ git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+#6
+$ git switch ZonaAssignmnet
+Switched to branch 'ZonaAssignmnet'
+
+#7
+$ git log --oneline
+dfce536 (HEAD -> ZonaAssignmnet) LinuxAss.docx
+217bd79 (origin/main, origin/HEAD, main) Update README.md
+254c14d Initial commit
+
+#8
+$ git log --oneline --graph
+* dfce536 (HEAD -> ZonaAssignmnet) LinuxAss.docx
+* 217bd79 (origin/main, origin/HEAD, main) Update README.md
+* 254c14d Initial commit
+
+#9
+$ git add LinuxAss.docx
+
+#10
+
+
+
